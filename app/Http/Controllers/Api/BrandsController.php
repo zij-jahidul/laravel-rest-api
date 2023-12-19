@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
 use App\Services\BrandService;
+use App\Http\Controllers\Controller;
 
 class BrandsController extends Controller
 {
